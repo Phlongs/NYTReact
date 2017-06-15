@@ -1,0 +1,40 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phlongs/NYTReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phlongs/NYTReact/issues"
+  },
+  "homepage": "https://github.com/Phlongs/NYTReact#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "history": "^4.6.2",
+    "jade": "^1.11.0",
+    "mongoose": "^4.10.6",
+    "morgan": "^1.8.2",
+    "pa": "^0.1.1",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "serve-favicon": "^2.4.3",
+    "socket.io": "^2.0.3",
+    "webpack": "^2.6.1"
+  }
+}
