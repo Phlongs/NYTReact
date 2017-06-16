@@ -28089,6 +28089,15 @@
 	                    { href: '#/saved' },
 	                    'Saved Articles'
 	                  )
+	                ),
+	                React.createElement(
+	                  'li',
+	                  null,
+	                  React.createElement(
+	                    'a',
+	                    { href: 'https://github.com/Phlongs/NYTReact' },
+	                    'Github Repo'
+	                  )
 	                )
 	              )
 	            )
