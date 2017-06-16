@@ -1,0 +1,14 @@
+.jumbotron {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  height: 100%;
+  color: white;
+}
+
+.panel .panel-heading, .navbar {
+  background-color: black;
+}
+
+form .btn {
+  background-color: black;
+}
