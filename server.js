@@ -14,7 +14,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 app.use(express.static('./public'));
 
-var link = 'mongodb://heroku_zpgkpj4r:gnvnf7kmeruhl6caa68s0qr70e@ds151137.mlab.com:51137/heroku_zpgkpj4r';
+var link = 'mongodb://heroku_p04dq6n0:mq9tivrb9nfak9kb9rrdfvma7q@ds129422.mlab.com:29422/heroku_p04dq6n0';
 //Local link
 var localLink = 'mongodb://localhost/nytreact';
 
