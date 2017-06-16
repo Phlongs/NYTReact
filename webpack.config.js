@@ -13,7 +13,7 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        exclude: /node_modules/,
+        excluse: /(node_modules|bower_components)/,
         loader: 'babel',
         query: {
           // These are the specific transformations we'll be using.
