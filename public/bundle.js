@@ -28139,9 +28139,9 @@
 	    };
 	  },
 
-	  componentDidUpdate: function componentDidUpdate(prevProps, prevState) {
+	  componentDidUpdate: function componentDidUpdate(preProps, preState) {
 
-	    if (this.state.queryTerm != "" && (prevState.queryTerm != this.state.queryTerm || prevState.startYear != this.state.startYear || prevState.endYear != this.state.endYear)) {
+	    if (this.state.queryTerm != "" && (preState.queryTerm != this.state.queryTerm || preState.startYear != this.state.startYear || preState.endYear != this.state.endYear)) {
 	      helpers.runQuery(this.state.queryTerm, this.state.startYear, this.state.endYear).then(function (data) {
 	        if (data != this.state.results) {
 	          this.setState({

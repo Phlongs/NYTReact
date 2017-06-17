@@ -7,7 +7,7 @@ var Main = React.createClass({
 
   getInitialState: function(){
     return {
-      newestArticles: ""
+      newArticles: ""
     }
   },
 
@@ -16,7 +16,7 @@ var Main = React.createClass({
     helpers.getSaved()
       .then(function(articleData){
         this.setState({
-          newestArticle: articleData.data
+          newArticle: articleData.data
         });
 
       }.bind(this))
@@ -31,7 +31,7 @@ var Main = React.createClass({
         .then(function(articleData){
 
           this.setState({
-            newestArticle: articleData.data
+            newArticle: articleData.data
           });
 
         }.bind(this))
@@ -41,7 +41,7 @@ var Main = React.createClass({
 
   render: function()  {
 
-    if (this.state.newestArticle == "") {
+    if (this.state.newArticle == "") {
       return(
 
         <li className="list-group-item">
@@ -55,7 +55,7 @@ var Main = React.createClass({
 
     else {
 
-      var articles = this.state.newestArticle.map(function(article, index){
+      var articles = this.state.newArticle.map(function(article, index){
 
         return(
 
